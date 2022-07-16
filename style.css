@@ -1,0 +1,110 @@
+ body{
+    margin: auto;
+  background-color:rgb(119, 53, 53) ;
+
+ }
+nav ul{
+    list-style-type: none;
+    text-align: left;
+    margin: 16px;
+    padding:12px;
+    overflow: hidden;
+    
+    display: table;
+   width: 100%;
+}
+nav li{
+    display:table-cell;
+    
+}
+li a{
+ display: block;
+ color: rgb(240, 230, 230);
+ text-align: center;
+ text-decoration: none;
+}
+
+main{
+    text-align: center;
+    border-radius: 2px;
+    background-image: url(photo-1624125276915-39e2afd37438.jpg);
+     background-position: 1px;
+     background-size:cover;
+     padding: 250px;
+     margin: 16px;
+     color: white;
+}
+main h1,h2,button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(247, 240, 240);
+    margin: 10px;
+}
+#Galeria{
+    margin: 16px;
+  padding: 16px;
+    background-color: rgb(68, 44, 44);
+    display: table;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;    
+    
+}
+.bord{
+    text-align:inherit;
+    text-indent: 50px;
+    width: 40%;
+    color: white;
+}
+#Galeria ul{
+    display:table;
+    width: 10px;
+}
+#Galeria li{
+  display: table-cell; 
+  
+}
+
+
+button{
+    background-color: rgb(192, 112, 8);
+    border-color: rgb(11, 177, 121);
+    opacity: 0.7;
+}
+#about{
+    padding: 1px;
+    margin: 16px;
+    background-color: rgb(68, 44, 44);
+    text-align: center;
+    color: white;
+}
+.abo h3{
+    margin: auto;
+  text-align: center;
+    width:180px ;
+}
+.wew ul{
+    text-align: left;
+    margin: 16px;
+    padding:20px;
+    
+    display: table;
+     width: 100%;
+}
+.wew li{
+    width: 10px;
+    display: table-cell;
+}
+
+.wew p{
+    width: 100%;
+    font-size: 19px;
+}
+
+footer{
+    margin: auto;
+    background-color: rgb(46, 42, 42);
+    padding: 12px;
+    text-align: center;
+    width: 96%;
+    color: white;
+}
